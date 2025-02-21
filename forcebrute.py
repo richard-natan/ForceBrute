@@ -42,7 +42,7 @@ def makePostRequisition(login, password):
                 
         else:
             if resp.status_code != args.response_code:
-                print(f"[{login}] AND [{password}] ---- [{resp.response_code}]")
+                print(f"[{login}] AND [{password}] ---- [{resp.status_code}]")
             else:
                 print('='*100 + "\n\n")
                 print(f"[{login}] AND [{password}] ---- FOUND")
