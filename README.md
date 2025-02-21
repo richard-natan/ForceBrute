@@ -22,12 +22,12 @@ You can run the script like this:
 ```bash
 python forcebrute.py -u <URL> -lp <login_parameter> -pp <password_parameter> -L <login_list> -P <password_list> -rt <failed_response_text> -t <number_of_threads>```
 
-| Parameter                  | Description                                                                                                      |
-|----------------------------|------------------------------------------------------------------------------------------------------------------|
+| Parameter                   | Description                                                                                                      |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------|
 | `-u`/`--url`                | URL of the login form                                                                                             
-| `-l`/`--login`              | Specific username for brute force |
+| `-l`/`--login`              | Specific username for brute force 
 | `-L`/`--LOGIN`              | Path to a login wordlist file                                                                     
-| `-p`/`--password`           | Specific password for brute force |
+| `-p`/`--password`           | Specific password for brute force 
 | `-P`/`--PASSWORD`           | Path to a password wordlist file                                                                 
 | `-rt`/`--response-text`     | Text indicating a failed login response (useful for error checking in the form)                                  
 | `-rc`/`--response-code`     | HTTP response code for successful login (e.g., 302 for redirect)                                                  
