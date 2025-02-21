@@ -20,7 +20,7 @@ This script allows you to perform brute force attacks in three different ways:
 You can run the script like this:
 
 ```bash
-python forcebrute.py -u <URL> -lp <login_parameter> -pp <password_parameter> -l <login_list> -p <password_list> -rt <failed_response_text> -t <number_of_threads>```
+python forcebrute.py -u <URL> -lp <login_parameter> -pp <password_parameter> -L <login_list> -P <password_list> -rt <failed_response_text> -t <number_of_threads>```
 
 | Parameter                  | Description                                                                                                      |
 |----------------------------|------------------------------------------------------------------------------------------------------------------|
