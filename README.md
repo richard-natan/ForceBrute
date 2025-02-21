@@ -24,13 +24,13 @@ python forcebrute.py -u <URL> -lp <login_parameter> -pp <password_parameter> -L 
 
 | Parameter                  | Description                                                                                                      |
 |----------------------------|------------------------------------------------------------------------------------------------------------------|
-| `-u`/`--url`                | URL of the login form                                                                                             |
+| `-u`/`--url`                | URL of the login form                                                                                             
 | `-l`/`--login`              | Specific username for brute force |
-| `-L`/`--LOGIN`              | Path to a login wordlist file                                                                     |
+| `-L`/`--LOGIN`              | Path to a login wordlist file                                                                     
 | `-p`/`--password`           | Specific password for brute force |
-| `-P`/`--PASSWORD`           | Path to a password wordlist file                                                                 |
-| `-rt`/`--response-text`     | Text indicating a failed login response (useful for error checking in the form)                                  |
-| `-rc`/`--response-code`     | HTTP response code for successful login (e.g., 302 for redirect)                                                  |
-| `-t`/`--threads`            | Number of threads to use for brute force (maximum 120, default 5)                                                     |
-| `-lp`/`--login-parameter`   | The login parameter name in the POST form                                                                         |
-| `-pp`/`--password-parameter`| The password parameter name in the POST form                                                                     |
+| `-P`/`--PASSWORD`           | Path to a password wordlist file                                                                 
+| `-rt`/`--response-text`     | Text indicating a failed login response (useful for error checking in the form)                                  
+| `-rc`/`--response-code`     | HTTP response code for successful login (e.g., 302 for redirect)                                                  
+| `-t`/`--threads`            | Number of threads to use for brute force (maximum 120, default 5)                                                     
+| `-lp`/`--login-parameter`   | The login parameter name in the POST form                                                                         
+| `-pp`/`--password-parameter`| The password parameter name in the POST form                                                                     
